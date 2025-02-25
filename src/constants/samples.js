@@ -11,8 +11,8 @@ export const samples = [
         link: ""
     },
     {
-        name: "فروشگاه من",
-        caption: "پروژه فروشگاهی یک فروشگاه ساخته شده با ری اکت و لاراول است که با متریال یو ای 'Material ui' دیزاین شده است",
+        name: "رزومه من",
+        caption: "یک سایت رزومه برای تیم برنامه نویسی دارای پنل ادمین و ارتباط با سرور برای ساخت عضو و نمونه کار.",
         image: cv,
         languages: [{color:"success.main",name:"vue"}, {color:"info.main",name:"tailvind css"}],
         isDone: true,

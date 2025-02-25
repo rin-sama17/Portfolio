@@ -20,7 +20,7 @@ const SidebarHeader = () => {
           isPlaying
           characterSet={alphabetPersian}
           duration={4}
-          characters="برنامه نویس ری اکت"
+          characters="برنامه نویس فول استک"
         />
       </Typography>
 

@@ -13,6 +13,7 @@ const SidebarContiner = ({ children }) => {
       sx={{
         backgroundColor: theme.palette.mode === 'dark' ? grey[900] : blue[50],
         height: '100vh',
+        height: "100svh", 
         overflowY: 'auto',
         overflowX: 'hidden',
       }}

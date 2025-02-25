@@ -1,4 +1,4 @@
-import { HtmlIcon, CssIcon, JsIcon, ReactIcon, GitIcon } from "../assets/icons";
+import { HtmlIcon, CssIcon, JsIcon, ReactIcon, GitIcon,Laravel } from "../assets/icons";
 
 export const devSkills = {
     htmlSkill: {
@@ -30,5 +30,11 @@ export const devSkills = {
         name: "Git",
         icon: GitIcon,
         color: "secondary.main",
+    }, 
+    laravelSkill: {
+        id: 6,
+        name: "Laravel",
+        icon: Laravel,
+        color: "secondary.dark",
     },
 };

@@ -55,7 +55,7 @@ const DevInfo = () => {
            color="text.primary"
            sx={{ mt: 1 ,direction:'ltr'}}
           >
-            با ۳ سال سابقه برنامه نویسی در زمینه فرانت اند و فریمورک های روز دنیا اعم از tailwind css , mui , bootsteap 5 و غیره
+            با ۳ سال سابقه برنامه نویسی در زمینه فرانت اند و بک اند همچنین مسلط به فریمورک های روز دنیا اعم از tailwind css , mui , bootsteap 5 و غیره
             </Typography>
     </>
   )

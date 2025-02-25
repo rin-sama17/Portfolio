@@ -17,7 +17,7 @@ const Home = ({ title }) => {
 
   const nameEl = useRef(null)
 
-  const strings = ['توسعه دهنده ری اکت هستم', 'برنامه نویس هستم', 'جونیور هستم']
+  const strings = ['توسعه دهنده لاراول هستم','توسعه دهنده ری اکت هستم', 'برنامه نویس هستم',"توسعه دهنده فرانت اند هستم",'توسعه دهنده بک اند هستم', 'جونیور هستم']
 
   useEffect(() => {
     const typedName = new Typed(nameEl.current, {

@@ -7,7 +7,9 @@ const Skills = () => {
   const [css, setCss] = useState(0)
   const [react, setReact] = useState(0)
   const [git, setGit] = useState(0)
-  const { htmlSkill, cssSkill, reactSkill, gitSkill, jsSkill } = devSkills
+  const [laravel, setLaravel] = useState(0)
+
+  const { htmlSkill, cssSkill, reactSkill, gitSkill, jsSkill,laravelSkill } = devSkills
   useEffect(() => {
     const progressIncrease = (prevValue, progress) => {
       const deff = Math.random() * 10
@@ -19,6 +21,7 @@ const Skills = () => {
       setCss((prevValue) => progressIncrease(prevValue, 47))
       setReact((prevValue) => progressIncrease(prevValue, 60))
       setGit((prevValue) => progressIncrease(prevValue, 47))
+      setLaravel((prevValue) => progressIncrease(prevValue, 70))
     }, 200)
 
     return () => {
@@ -29,22 +32,10 @@ const Skills = () => {
     <>
     
       <Skill
-        name={jsSkill.name}
-        bgcolor={jsSkill.color}
-       // icon={jsSkill.icon}
-        value={js}
-      />
-      <Skill
         name={htmlSkill.name}
         bgcolor={htmlSkill.color}
        // icon={htmlSkill.icon}
         value={html}
-      />
-      <Skill
-        name={cssSkill.name}
-        bgcolor={cssSkill.color}
-       // icon={cssSkill.icon}
-        value={css}
       />
       <Skill
         name={reactSkill.name}
@@ -52,13 +43,31 @@ const Skills = () => {
        // icon={reactSkill.icon}
         value={react}
       />
+     
       <Skill
-        name={gitSkill.name}
-        bgcolor={gitSkill.color}
-       // icon={gitSkill.icon}
-        value={git}
+        name={jsSkill.name}
+        bgcolor={jsSkill.color}
+       // icon={jsSkill.icon}
+        value={js}
       />
-      ;
+       <Skill
+        name={laravelSkill.name}
+        bgcolor={laravelSkill.color}
+       // icon={laravelSkill.icon}
+        value={laravel}
+      />
+      <Skill
+        name={cssSkill.name}
+        bgcolor={cssSkill.color}
+       // icon={cssSkill.icon}
+        value={css}
+      /> <Skill
+      name={gitSkill.name}
+      bgcolor={gitSkill.color}
+     // icon={gitSkill.icon}
+      value={git}
+    />
+      
     </>
   )
 }

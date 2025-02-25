@@ -3,6 +3,7 @@ import { CardContent, Typography, Slide, Card, Button } from '@mui/material'
 import { useTheme } from '@mui/material/styles'
 import { Sms } from '@mui/icons-material'
 import { Helmet } from 'react-helmet-async'
+import {  Telegram,Email } from "@mui/icons-material";
 
 import { PageCard, PageContiner } from '../components/pages'
 import CustomDivider from '../common/CustomDivider'
@@ -54,15 +55,42 @@ const Contact = ({ title }) => {
               <Typography variant="h6" color="black">
                 بیا درمورد همه چیز با هم حرف بزنیم
               </Typography>{' '}
+              <Card
+              sx={{
+                bgcolor:"#0000",
+                boxShadow:"none"
+,                mt:1,
+                p: 2,
+                textAlign: 'center',
+                display: 'flex ',
+                justifyContent: 'center',
+              }}
+            >
               <Button
                 href="mailto:okumura.rin.samaa@gmail.com"
                 alt="email"
-                color="secondary"
+                color="error"
+                variant ='contained'
+                sx={{p:1 ,ml:1} }
               >
-                <Typography variant="body1" color="text.secondary">
-                  ایمیل بزن به من
+                <Typography variant="body1" color="black">
+                  ایمیل من
                 </Typography>
+                <Email sx={ { color: "#fffff" ,pr:1 } } />
               </Button>{' '}
+              <Button
+                href="https://t.me/rin_sama"
+                alt="telegram"
+                variant ='contained'
+
+                color="info"
+                sx={{p:1}}
+              >
+                <Typography variant="body1" color="black">
+                  تلگرام من
+                </Typography>
+                <Telegram sx={ { color: "info" ,pr:1} } />
+              </Button>{' '}</Card>
             </Card>
           </Slide>
         </CardContent>

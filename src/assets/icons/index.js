@@ -3,3 +3,4 @@ export { default as CssIcon } from "./css3-original.svg";
 export { default as JsIcon } from "./javascript-original.svg";
 export { default as ReactIcon } from "./react-original.svg";
 export { default as GitIcon } from "./git-original.svg";
+export { default as Laravel } from "./laravel-svgrepo-com.svg";

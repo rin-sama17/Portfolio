@@ -47,14 +47,3 @@ html {
 .MuiChip-icon {
   color: black !important;
 }
-body ::-webkit-scrollbar {
-  height: 6px !important; 
-  width: 6px !important;
-}
-body ::-webkit-scrollbar-thumb {
-  border-radius: 10px !important;
-  background-color: #888 !important;
-}
-body ::-webkit-scrollbar-track {
-  background-color: transparent !important;
-}
