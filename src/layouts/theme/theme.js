@@ -25,8 +25,8 @@ export const lightTheme = createTheme({
     palette: {
         mode: "light",
         custom: {
-            main: "#e53935",
-            contrastText: '#e53935'
+            main: "#DB4745",
+            contrastText: '#DB4745'
         }
     },
 

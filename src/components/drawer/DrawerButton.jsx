@@ -20,7 +20,7 @@ const DrawerButton = () => {
       }}
     >
       <Fab color="custom" onClick={() => setDrawerOpen(true)}>
-        <Menu />
+        <Menu sx={{color:"black"}}/>
       </Fab>
     </Box>
   )
