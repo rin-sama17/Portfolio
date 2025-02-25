@@ -4,7 +4,7 @@ import { createTheme } from '@mui/material';
 export const darkTheme = createTheme({
     direction: "rtl",
     typography: {
-        fontFamily: "vazir,wazin , roboto"
+        fontFamily: "vazir,wazin "
     },
     palette: {
         mode: "dark",
